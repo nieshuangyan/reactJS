@@ -9,3 +9,8 @@
 arg1:虚拟元素名称或组件名称；
 arg2:虚拟DOM元素上必要属性,如id、className等,或者null；
 arg3...:该虚拟DOM中所有子元素；
+
+2将虚拟DOM渲染到页面：ReactDOM.render(nextElement, container, callback)
+nextElement:虚拟DOM名称；
+container:真实DOM容器；
+callback:回调函数；
