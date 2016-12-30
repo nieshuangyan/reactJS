@@ -23,3 +23,20 @@ nextElement:虚拟DOM名称；
 container:真实DOM容器；
 
 callback:回调函数；
+
+
+#react相关
+1jsx语法：
+
+1.1{}里面可以写大量表达式，如{var a="11";}；
+
+1.2jsx注释：{/* 注释 */}，注释不能写在render中return语句前面，否则报错Adjacent JSX elements must be wrapped in an enclosing tag (12:0)；
+
+1.3jsx中在render中return中返回的html元素：只能返回一个根元素，其余元素为根元素的子元素，否则报错Adjacent JSX elements must be wrapped in an enclosing tag (10:0)；
+
+#react的Demo介绍
+1demo0:简单的react实现，了解react,类似hello world;
+
+1demo1:简单的react+label2+fis3+jsx实现，了解react和jsx;
+
+2demo2:介绍react表达式{}，在jsx语法中表达式{}里面写任何表达式，如定义变量等；
