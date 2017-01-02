@@ -152,7 +152,7 @@ ReactDOM.render(《Title /》,document.getElementById('app'))
 
 4非元素属性：
 
-4.1key：为元素设置绑定reactid，return data.map(function(val,index){return (《li key={index}》{val}《/li》)})；
+4.1key：属性key为元素设置绑定reactid，不然报错react.js:20481 Warning: Each child in an array or iterator should have a unique "key" prop。eg:return data.map(function(val,index){return (《li key={index}》{val}《/li》)})；
 
 4.2Rel：对虚拟dom的一个引用，在组件方法中可根据这个属性快速获取组件中元素，《input ref='searchInput' type="text" /》；
 
@@ -167,6 +167,8 @@ var content={__html:'《span style="color:red;display:inline-block;width:40px;"�
 #react的Demo介绍
 1demo0:简单的react实现，了解react,类似hello world;
 
-1demo1:简单的react+label2+fis3+jsx实现，了解react和jsx;
+1demo1:简单的，了解react和jsx，react+label2+fis3+jsx实现解析.jsx文件；
 
-2demo2:介绍react表达式{}，在jsx语法中表达式{}里面写任何表达式，如定义变量等；
+2demo2:介绍react表达式{}，在jsx语法中表达式{}里面写任何表达式，如定义变量等，react+label2+fis3+jsx实现解析.jsx文件；
+
+3demo3:自定义组件函数渲染列表，react+label2+fis3+jsx实现解析.jsx文件；
