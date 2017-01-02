@@ -8,15 +8,38 @@
 
 
 #react主要API:
-1创建元素：React.createElement(arg1,arg2,arg3,arg4...);
+1创建虚拟dom：React.createElement(arg1,arg2,arg3,arg4...)
 
 arg1:虚拟元素名称或组件名称；
 
 arg2:虚拟DOM元素上必要属性,如id、className等,或者null；
 
 arg3...:该虚拟DOM中所有子元素；
+eg:var MessageBox=React.createElement('h1',{
+        title:'这是一个标题'
+        },'您好！'
+      );
 
-2将虚拟DOM渲染到页面：ReactDOM.render(nextElement, container, callback)
+
+2创建一个组件：React.createClass(arg1)
+arg1:构建之组件的对象；
+
+eg:var Header=React.createClass({
+render: function(){
+var username='yanz燕子';
+var date=new Date();
+return(
+<div className="header">
+<div className="inner>
+<span>{username}</span>
+{/* 渲染时间 */}
+<span>{date.getHours()>12? '下午好':'上午好'}</span>
+</div>
+</div>
+)}
+})
+
+3将虚拟DOM渲染到页面：ReactDOM.render(nextElement, container, callback)
 
 nextElement:虚拟DOM名称；
 
