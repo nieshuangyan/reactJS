@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>学习react</title>
+  </head>
+  <style type="text/css">
+  *{
+  padding:0;
+  margin:0;
+  }
+  .header{
+  height:60px;
+  background:#efefefd;
+  border-bottom:1px solid #ccc;
+  }
+  .inner{
+  width:1000px;
+  margin: 0 auto;
+  line-height:60px;
+  font-size:16px;
+  }
+  </style>
+  <body>
+   <div id="app"></div>
+   <div id="app2"></div>
+    <script type="text/javascript" src="react.js"></script>
+    <script type="text/javascript" src="react-dom.js"></script>
+	<script type="text/x-jsx">
+var Title=React.createClass({
+//渲染虚拟dom
+render: function(){
+var styles={
+color:'red',
+fontSize:'20px',
+WebkitBoxShadow:'2px 2px green',
+width:'200px'
+};
+//<h1 style={{color:'red'}}>2017年新年快乐，越来越好</h1>
+return(
+<h1 style={styles}>2017年新年快乐，越来越好</h1>
+)}
+})
+
+//虚拟dom渲染到页面,传递的是一个字符串
+ReactDOM.render(<Title />,document.getElementById('app'))
+	</script>
+    
+  </body>
+</html>
