@@ -15,29 +15,19 @@ arg1:虚拟元素名称或组件名称；
 arg2:虚拟DOM元素上必要属性,如id、className等,或者null；
 
 arg3...:该虚拟DOM中所有子元素；
+
 eg:var MessageBox=React.createElement('h1',{
+
         title:'这是一个标题'
+        
         },'您好！'
+        
       );
 
 
 2创建一个组件：React.createClass(arg1)
 arg1:构建之组件的对象；
 
-eg:var Header=React.createClass({
-render: function(){
-var username='yanz燕子';
-var date=new Date();
-return(
-<div className="header">
-<div className="inner>
-<span>{username}</span>
-{/* 渲染时间 */}
-<span>{date.getHours()>12? '下午好':'上午好'}</span>
-</div>
-</div>
-)}
-})
 
 3将虚拟DOM渲染到页面：ReactDOM.render(nextElement, container, callback)
 
@@ -47,11 +37,13 @@ container:真实DOM容器；
 
 callback:回调函数；
 
+eg:渲染虚拟dom树：ReactDOM.render(MessageBox,document.getElementById('app')
+
 
 #react相关
 1jsx语法：
 
-1.1{}里面可以写大量表达式，如{var a="11";}；
+1.1{}里面可以写大量表达式，如{var a="11";}，在插值符号中可以输入任何表达式，如js内置方法，js语句；
 
 1.2jsx注释：{/* 注释 */}，注释不能写在render中return语句前面，否则报错Adjacent JSX elements must be wrapped in an enclosing tag (12:0)；
 
