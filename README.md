@@ -171,4 +171,25 @@ var content={__html:'《span style="color:red;display:inline-block;width:40px;"�
 
 2demo2:介绍react表达式{}，在jsx语法中表达式{}里面写任何表达式，如定义变量等，react+label2+fis3+jsx实现解析.jsx文件；
 
-3demo3:自定义组件函数渲染列表，react+label2+fis3+jsx实现解析.jsx文件；
+3demo3:自定义组件函数渲染列表和组件非元素属性key，react+label2+fis3+jsx实现解析.jsx文件；
+
+4demo4:react组件事件、属性props、样式、实现展示图片，react+label2+fis3+jsx实现解析.jsx文件；
+
+index-event.html:babel2解析html内嵌jsx实现事件；
+
+index-props.html:react+label2+fis3+jsx解析.jsx文件实现属性；
+
+index-style.html:react+label2+fis3+jsx解析.jsx文件实现样式；
+
+index-skin.html:react+label2+fis3+jsx解析.jsx文件实现展示图片；
+
+5demo5:react的生命周期：
+
+index-creat.html:react+label2+fis3+jsx解析.jsx文件，组件创建期；
+
+index-exit.html:react+label2+fis3+jsx解析.jsx文件，组件存在期；
+
+index-destroy.html:react+label2+fis3+jsx解析.jsx文件，组件销毁期；
+
+6demo6:react的非元素属性ref和dangerouslySetInnerHTML，react+label2+fis3+jsx解析.jsx文件；
+
