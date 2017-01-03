@@ -175,21 +175,21 @@ var content={__html:'《span style="color:red;display:inline-block;width:40px;"�
 
 4demo4:react组件事件、属性props、样式、实现展示图片，react+label2+fis3+jsx实现解析.jsx文件；
 
-index-event.html:babel2解析html内嵌jsx实现事件；
+4.1index-event.html:babel2解析html内嵌jsx实现事件；
 
-index-props.html:react+label2+fis3+jsx解析.jsx文件实现属性；
+4.2index-props.html:react+label2+fis3+jsx解析.jsx文件实现属性；
 
-index-style.html:react+label2+fis3+jsx解析.jsx文件实现样式；
+4.3index-style.html:react+label2+fis3+jsx解析.jsx文件实现样式；
 
-index-skin.html:react+label2+fis3+jsx解析.jsx文件实现展示图片；
+4.3index-skin.html:react+label2+fis3+jsx解析.jsx文件实现展示图片；
 
 5demo5:react的生命周期：
 
-index-creat.html:react+label2+fis3+jsx解析.jsx文件，组件创建期；
+5.1index-creat.html:react+label2+fis3+jsx解析.jsx文件，组件创建期；
 
-index-exit.html:react+label2+fis3+jsx解析.jsx文件，组件存在期；
+5.2index-exit.html:react+label2+fis3+jsx解析.jsx文件，组件存在期；
 
-index-destroy.html:react+label2+fis3+jsx解析.jsx文件，组件销毁期；
+5.3index-destroy.html:react+label2+fis3+jsx解析.jsx文件，组件销毁期；
 
 6demo6:react的非元素属性ref和dangerouslySetInnerHTML，react+label2+fis3+jsx解析.jsx文件；
 
